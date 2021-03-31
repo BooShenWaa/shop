@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-- 14.16.0
+  - 14.16.0
 script:
-- npm run setup
-- npm run test
+  - npm run setup
+  - npm run test
 deploy:
   provider: heroku
   api_key:
@@ -12,4 +12,4 @@ deploy:
     main: fullstack-travis-demo
     staging: fullstack-travis-staging
   on:
-    repo: jmsherry/full-stack-shop-app
+    repo: BooShenWaa/shop
